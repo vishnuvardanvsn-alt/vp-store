@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "./styles/fonts.css";
+@import "./styles/theme.css";
+
+@theme {
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-ink: #000000;
+  --color-muted: #6f6f6f;
+  --color-accent: #1b4332;
+  --color-accent-soft: #eef2ee;
+  --color-surface: #faf9f7;
+  --color-line: #e4e2dd;
+  --color-line-strong: #cfccc4;
+}
